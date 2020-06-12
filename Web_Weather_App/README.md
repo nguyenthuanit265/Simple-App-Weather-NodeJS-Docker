@@ -1,10 +1,15 @@
-_ Install Docker Desktop
-_ Build Docker
-    docker build . -t <username>/<name app>
-_Run Docker
-    docker run -p <port of device>:<port docker container> <username>/<name app>
-_ Test 
-    docker ps
+```
+Install Docker Desktop
 
-_ Stop docker
-    docker container stop <container ID>
+Build Docker
+docker build . -t <username>/<name app>
+
+Run Docker
+docker run -p <port of device>:<port docker container> <username>/<name app>
+
+Test 
+docker ps
+
+Stop docker
+docker container stop <container ID>
+```
