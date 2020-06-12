@@ -1,0 +1,23 @@
+{
+  "name": "web-weather-app",
+  "version": "1.0.0",
+  "description": "nodejs web weather",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=web-weather-app:* npm run devstart"
+  },
+  "author": "minhthuan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
